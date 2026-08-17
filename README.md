@@ -28,13 +28,13 @@ O Car Stickers é um aplicativo de coleção de figurinhas de carros: você foto
 
 Coletamos apenas o necessário para o app funcionar. Nada de rastreamento entre apps, nada de venda de dados a terceiros.
 
-| Dado | Quando | Para quê |
-|---|---|---|
-| Nome e e-mail | Criação de conta | Login, identificação no ranking, suporte |
-| Senha | Criação de conta | Login — guardamos só o *hash* (bcrypt), nunca o texto em claro |
-| Fotos de carros | Uso da câmera do app | Reconhecimento do modelo por IA (ver seção 3) |
-| Progresso no jogo | Uso contínuo | XP, nível, coleção, missões, sequência de dias, ranking |
-| Identificador de publicidade | Exibição de anúncios | Google AdMob — ver seção 5 |
+| Dado                         | Quando               | Para quê                                                       |
+| ---------------------------- | -------------------- | -------------------------------------------------------------- |
+| Nome e e-mail                | Criação de conta     | Login, identificação no ranking, suporte                       |
+| Senha                        | Criação de conta     | Login — guardamos só o _hash_ (bcrypt), nunca o texto em claro |
+| Fotos de carros              | Uso da câmera do app | Reconhecimento do modelo por IA (ver seção 3)                  |
+| Progresso no jogo            | Uso contínuo         | XP, nível, coleção, missões, sequência de dias, ranking        |
+| Identificador de publicidade | Exibição de anúncios | Google AdMob — ver seção 5                                     |
 
 Não coletamos localização, contatos, lista de outros apps instalados, nem usamos SDKs de analytics ou rastreamento de comportamento fora do app.
 
@@ -70,7 +70,7 @@ O **ranking** do app mostra seu **nome** e seu **XP total** para os demais usuá
 
 ## 7. Como protegemos seus dados
 
-- Senhas armazenadas com *hash* bcrypt — nunca em texto simples.
+- Senhas armazenadas com _hash_ bcrypt — nunca em texto simples.
 - Sessão autenticada por token (JWT), guardado no dispositivo em armazenamento seguro do sistema operacional (Keychain/Keystore via `expo-secure-store`).
 - Comunicação entre o app e nossos servidores é criptografada (HTTPS).
 
@@ -86,7 +86,7 @@ Nos termos da LGPD (Lei Geral de Proteção de Dados) e de legislações equival
 - Corrigir dados incorretos ou desatualizados;
 - Pedir a exclusão da sua conta e dos dados associados a ela.
 
-**Como pedir:** envie um e-mail para [privacidade@carstickers.app](mailto:privacidade@carstickers.app) a partir do endereço cadastrado na sua conta, com o assunto "Exclusão de conta". Confirmamos o recebimento e removemos seus dados de identificação em até 30 dias. Dados que precisamos manter por obrigação legal (ex.: registros fiscais, se houver) podem ser retidos pelo prazo exigido por lei.
+**Como pedir:** envie um e-mail para [privacidade@carstickers.app](mailto:victorjarbas@gmail.com) a partir do endereço cadastrado na sua conta, com o assunto "Exclusão de conta". Confirmamos o recebimento e removemos seus dados de identificação em até 30 dias. Dados que precisamos manter por obrigação legal (ex.: registros fiscais, se houver) podem ser retidos pelo prazo exigido por lei.
 
 Hoje esse pedido é feito por e-mail — ainda não existe um botão de "excluir conta" dentro do app.
 
@@ -100,7 +100,7 @@ Podemos atualizar esta política conforme o app evolui. Mudanças relevantes ser
 
 ## 12. Contato
 
-Dúvidas sobre esta política ou sobre seus dados? Escreva para [privacidade@carstickers.app](mailto:privacidade@carstickers.app).
+Dúvidas sobre esta política ou sobre seus dados? Escreva para [victorjarbas@gmail.com](mailto:victorjarbas@gmail.com).
 
 ---
 
